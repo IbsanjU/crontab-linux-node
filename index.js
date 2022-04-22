@@ -5,10 +5,3 @@ const { colours: cl } = require('./log-colors')
 
 console.log(cl.bg.yellow, cl.fg.red, `This is a text at ${new Date()} `, cl.reset)
 
-/**
- * 
-  sudo npm install pm2 -g
-  pm2 start index.js
-  pm2 kill
-
- */
